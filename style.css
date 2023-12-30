@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.container1{
+  background-color: green;
+  padding: 40px;
+  width: 270px;
+  border-radius: 24px;
+  
+}
+.navbar{
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.5);
+  background-color:#125566;
+}
+.container-fluid{
+  
+}
+.navbar-brand{
+  font-weight: 300;
+  font-size: 15px;
+  font-family: Sans-Serif;
+  color: #fff;
+}
+.navbar-toggler{
+  all: unset;
+}
+.hero{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/web2.jpg') ;
+  background-repeat: no-repeat;
+  background-size: conver;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.hero h1{
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  font-family: Times New Roman;
+}
+#about{
+  margin-top: px;
+  background-color: #131331;
+  width: 100%;
+  height:auto;
+}
+#about h1{
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 60px;
+  padding: 40px;
+}
+.item{
+  background-color: green;
+}
+.data h2{
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  margin: 15px;
+  text-transform: uppercase;
+}
+.data p{
+  text-align: center;
+  font-size: 12px;
+}
+container2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.image img{
+  width: 100%;
+  
+}
+
+.offcanvas-title{
+  color: green;
+}
+.container2 {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(2, 1fr);
+gap: 10px;
+margin:10px;
+margin-bottom: 0;
+
+}
+.features{
+  background-color: #131441;
+  height: auto;
+  width: 100%;
+padding: 20px;
+}
+.features .left p{
+  color: white;
+  text-align: justify;
+}
+.features .main{
+  width: 100%;
+  height:px ;
+  flex-direction: column;
+}
+.main .container{
+  
+  background-color: ;
+  padding: 1px;
+  margin: px;
+}
+.features h2{
+  justify-content: center;
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+}
+.features .right img{
+margin: 10px;
+}
+.footer{
+  text-align: center;
+  
+}
+  {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
